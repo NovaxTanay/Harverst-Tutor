@@ -1,0 +1,60 @@
+# Environment variables (CRITICAL - contains API keys)
+.env
+.env.local
+.env*.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+site-packages/
+venv/
+venv_harvest/
+venv310/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Temporary files
+*.tmp
+/tmp/
+temp/
+*.mp3
+*.wav
+audio_output/
+
+# Vercel
+.vercel
+.vercel.json
+
+# Git
+*.orig

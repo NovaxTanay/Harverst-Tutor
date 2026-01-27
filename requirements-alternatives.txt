@@ -1,0 +1,44 @@
+# Alternative Requirements for Different Python Versions
+# Use this file if you have compatibility issues with the main requirements.txt
+
+# ============================================
+# Python 3.8 - 3.10 (Recommended: 3.10)
+# ============================================
+tensorflow==2.12.0
+numpy>=1.23.5,<2.0.0
+pillow>=9.0.0
+gtts>=2.3.0
+google-generativeai>=0.3.0
+python-dotenv>=1.0.0
+
+# ============================================
+# Python 3.11 (Alternative TensorFlow)
+# ============================================
+# tensorflow==2.13.0
+# numpy>=1.24.0,<2.0.0
+# pillow>=10.0.0
+# gtts>=2.4.0
+# google-generativeai>=0.3.0
+# python-dotenv>=1.0.0
+
+# ============================================
+# Python 3.12+ (Use TensorFlow CPU or alternatives)
+# ============================================
+# tensorflow-cpu==2.15.0
+# numpy>=1.26.0
+# pillow>=10.0.0
+# gtts>=2.5.0
+# google-generativeai>=0.3.0
+# python-dotenv>=1.0.0
+
+# ============================================
+# Lightweight Alternative (No TensorFlow)
+# Use this if TensorFlow installation fails
+# Note: You'll need to modify prediction code
+# ============================================
+# numpy>=1.23.5
+# pillow>=9.0.0
+# gtts>=2.3.0
+# google-generativeai>=0.3.0
+# python-dotenv>=1.0.0
+# onnxruntime>=1.15.0  # Alternative to TensorFlow
